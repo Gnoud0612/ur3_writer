@@ -11,7 +11,6 @@ Package điều khiển robot UR3 thực hiện vẽ chữ 'D' trong môi trư�
 ## 2. Cấu trúc Package
 - `src/ur3_writer_node.cpp`: Node C++ lập kế hoạch đường đi Cartesian, phát Marker hiển thị nét vẽ chữ D và thu gọn cánh tay.
 - `launch/ur3_writer.launch.py`: File launch khởi động đồng thời mô phỏng UR3, RViz2 và node điều khiển.
-- `rviz/ur3_writer.rviz`: Cấu hình giao diện RViz2 lưu sẵn hiển thị Marker.
 
 ## 3. Hướng dẫn biên dịch và chạy
 ```bash
